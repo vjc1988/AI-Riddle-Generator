@@ -1,3 +1,83 @@
 body {
+  background-color: #f2f9f1;
+  font-family: "Caveat", cursive;
+}
+
+.container {
+  margin: auto;
+  display: block;
+  margin-top: 40px;
+  max-width: 600px;
   background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+h1 {
+  text-align: center;
+  color: #5c715e;
+  font-weight: 700;
+  font-size: 70px;
+  margin-bottom: 2%;
+  margin-top: 10px;
+}
+
+img {
+  margin: auto;
+  display: block;
+  margin-bottom: 40px;
+  max-width: 15%;
+}
+
+.riddle-input-container {
+  margin: auto;
+  display: block;
+  background-color: #ddeedf;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.input-instructions {
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  width: 75%;
+  font-size: 16px;
+}
+
+.submit-button {
+  padding: 15px;
+  border-radius: 10px;
+  margin-left: 10px;
+  max-width: 30%;
+  border: none;
+  background-color: #5c715e;
+  color: white;
+  font-size: 16px;
+}
+
+.submit-button:hover {
+  background-color: white;
+  color: #5c715e;
+  cursor: pointer;
+}
+.riddle-result-container {
+  margin: auto, 20px;
+  display: block;
+  background-color: #b6cdbd;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+a {
+  color: #5c715e;
+}
+
+footer {
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
 }

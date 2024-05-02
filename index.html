@@ -3,27 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="src/style.css" />
     <title>AI Riddle Generator</title>
   </head>
   <body>
-    <div>
-      <h1>AI Riddle Generator</h1>
-      <form>
-        <input
-          type="text"
-          placeholder="Provide subject for riddle..."
-          autofocus
-          required
-        />
-        <input type="submit" />
-      </form>
-      <p>Riddle result</p>
+    <div class="container">
+      <h1>Fun Riddle Generator</h1>
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/280/original/question_marks.png?1714662183"
+      />
+      <div class="riddle-input-container">
+        <form>
+          <input
+            type="text"
+            class="input-instructions"
+            placeholder="Provide subject for riddle..."
+            autofocus
+            required
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+      </div>
+      <p class="riddle-result-container">Riddle result</p>
     </div>
     <footer>
       Coded with 🩷 by
-      <a href="https://github.com/vjc1988" target="_blank">Victoria Cadd</a>, is
-      open-sourced on
+      <a href="https://github.com/vjc1988" target="_blank"
+        ><strong>Victoria Cadd</strong></a
+      >, is open-sourced on
       <a href="https://github.com/vjc1988/AI-Riddle-Generator" target="_blank"
         >GitHub</a
       >
