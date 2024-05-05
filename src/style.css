@@ -72,6 +72,10 @@ img {
   border-radius: 10px;
 }
 
+p {
+  font-size: 25px;
+}
+
 a {
   color: #5c715e;
 }
