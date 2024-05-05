@@ -17,6 +17,9 @@ function riddleGenerator(event) {
     "you are a playful riddle AI assistant who enjoys giving users a challenge";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
+  let riddleElement = document.querySelector("#riddle-result");
+  riddleElement.innerHTML = `<div class="blink">⌛ Generating a riddle about ${userInstructions.value}...</div>`;
+
   axios.get(apiUrl).then(generateRiddle);
 }
 
