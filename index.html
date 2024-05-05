@@ -10,6 +10,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI Riddle Generator</title>
   </head>
   <body>
@@ -19,7 +20,7 @@
         src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/280/original/question_marks.png?1714662183"
       />
       <div class="riddle-input-container">
-        <form>
+        <form id="submit-riddle">
           <input
             type="text"
             class="input-instructions"
@@ -30,7 +31,7 @@
           <input type="submit" class="submit-button" />
         </form>
       </div>
-      <p class="riddle-result-container">Riddle result</p>
+      <p class="riddle-result-container" id="riddle-result"></p>
     </div>
     <footer>
       Coded with 🩷 by
