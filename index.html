@@ -10,7 +10,9 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
     <title>AI Riddle Generator</title>
   </head>
   <body>
@@ -27,6 +29,7 @@
             placeholder="Provide subject for riddle..."
             autofocus
             required
+            id="userInstructions"
           />
           <input type="submit" class="submit-button" />
         </form>
